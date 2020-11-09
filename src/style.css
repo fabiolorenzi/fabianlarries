@@ -1,0 +1,581 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #000000;
+}
+
+.nextEvents {
+    background-image: url("./img/next_events.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    left: 0;
+    top: 0;
+}
+
+header nav {
+    margin: auto;
+}
+
+.wideNav {
+    display: flex;
+}
+
+#burgerIcon {
+    display: none;
+}
+
+#burgerIcon div {
+    background-color: #ffffff;
+    width: 0;
+    padding: 1px 15px;
+    margin-bottom: 5px;
+    transition-duration: 0.5s;
+}
+
+.burgerMenu {
+    display: none;
+}
+
+.hiddenNav {
+    display: none;
+}
+
+.menu2 li {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.openMenu {
+    display: block;
+}
+
+.openBurger {
+    padding: 80px;
+    padding-top: 0 !important;
+    padding-left: 110px;
+}
+
+.openBurger div:first-child {
+    transform: rotate(-135deg);
+    margin-left: -20px;
+    transition-duration: 0.5s;
+}
+
+.openBurger div:nth-child(2) {
+    transform: rotate(135deg);
+    margin-top: -8px !important;
+    transition-duration: 0.5s;
+}
+
+.openBurger div:nth-child(3) {
+    margin-top: -18px;
+    margin-left: -11px;
+    transition-duration: 0.5s;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+.menu1 {
+    display: inline;
+    text-decoration: none;
+}
+
+.menu1 li {
+    font-size: 25px;
+    font-weight: 100;
+    color: #8b8b8b;
+    text-decoration: none;
+    margin-right: 2em;
+    transition-duration: 0.3s;
+}
+
+.menu1 li:hover {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+.sel li {
+    color: #ffffff;
+}
+
+.container {
+    margin-top: 88px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.main_banners {
+    width: 100%;
+    display: block;
+}
+
+.main_banners img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #222222;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: auto;
+    letter-spacing: 0.05em;
+    margin-bottom: 0;
+}
+
+footer p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.nextEv div {
+    display: block;
+    background-color: #292929;
+    border-radius: 3px;
+    margin: 100px auto 400px;
+    border-bottom: solid #ff0000 5px;
+}
+
+.nextEv div h1 {
+    font-size: 25px;
+    font-weight: 100;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.songs div {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.songs div h1 {
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.songs div div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.songs div div iframe {
+    margin-bottom: 20px;
+    width: 480px;
+    height: 271px;
+}
+
+.about {
+    background-image: url("./img/aboutWall.jpg");
+    background-position: center;
+}
+
+.aboutMain div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutMain aside {
+    display: block;
+    width: 40%;
+    margin-left: 10%;
+}
+
+.aboutMain aside img {
+    width: 350px; 
+}
+
+.aboutMain section {
+    display: block;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 330px;
+    margin-left: 20%;
+}
+
+.aboutMain section h1 {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.aboutMain section p {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    line-height: 20px;
+}
+
+.news {
+    background-image: url("./img/newsWall.jpg");
+    background-position: center;
+}
+
+.newsMain {
+    display: block;
+    color: #ffffff;
+    margin-top: 150px;
+}
+
+.newsMain h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.newsMain p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.newsMain b {
+    color: #ff0000;
+}
+
+.newsMain div {
+    display: block;
+    width: 50%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.newsMain div form {
+    margin-left: -14.5%;
+}
+
+.newsMain div form p {
+    font-size: 12px;
+    text-align: right;
+}
+
+.newsMain div form div input {
+    border-radius: 2px;
+}
+
+.newsMain button {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 20px 50px;
+    border: 1px solid #000000;
+    margin-left: 14.5%;
+    margin-bottom: 150px;
+}
+
+.formB label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formB input {
+    margin-bottom: 10px;
+}
+
+.gender {
+    margin-bottom: 10px;
+}
+
+.lang {
+    margin-bottom: 50px;
+}
+
+.inp input {
+    width: 400px;
+    height: 35px;
+}
+
+.contacts {
+    background-image: url("./img/contactsWall.png");
+}
+
+.contactMain,
+.contactMain div {
+    display: block;
+    text-align: center;
+}
+
+.contactMain div {
+    width: 400px;
+    margin: auto;
+}
+
+.contactMain h1 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 120px;
+}
+
+.contactMain div div a {
+    display: block;
+    text-decoration: none;
+}
+
+.contactMain div div a h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border: #000000 solid 1px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#fbB:hover, #instaB:hover, #spoB:hover, #youB:hover,
+#beatB:hover, #soundB:hover, #mailB:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transition-duration: 0.5s;
+}
+
+#fbB {
+    background-color: #4267B2;
+    transition-duration: 0.5s;
+}
+
+#instaB {
+    background-color: #833AB4;
+    transition-duration: 0.5s;
+}
+
+#spoB {
+    background-color: #1DB954;
+    transition-duration: 0.5s;
+}
+
+#youB {
+    background-color: #ff0000;
+    transition-duration: 0.5s;
+}
+
+#beatB {
+    background-color: #07c400;
+    transition-duration: 0.5s;
+}
+
+#soundB {
+    background-color: #fca400;
+    transition-duration: 0.5s;
+}
+
+#mailB {
+    background-color: #5a5a5a;
+    transition-duration: 0.5s;
+}
+
+.contactMain div div a:last-child {
+    margin-bottom: 50px;
+}
+
+.error {
+    background-image: url("img/error.jpg");
+    margin-top: 80px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.error h1 {
+    padding-top: 150px;
+    margin-bottom: 50px;
+}
+
+#linkEr {
+    text-decoration: none;
+}
+
+#linkEr h2 {
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.error br {
+    margin-bottom: 550px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    header {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    footer a img {
+        width: 30px;
+    }
+
+    .wideNav {
+        display: none;
+    }
+
+    #burgerIcon {
+        display: block;
+        margin: auto;
+    }
+
+    .main_banners {
+        margin-top: 70px;
+    }
+
+    .nextEv div {
+        margin: 50px 20% 700px;;
+    }
+
+    .songs div div iframe {
+        width: 340px;
+        height: 192px;
+    }
+
+    .aboutMain {
+        display: block;
+        text-align: center;
+    }
+
+    .aboutMain div aside {
+        display: block;
+        width: 80%;
+        margin: 30px 10%;
+    }
+
+    .aboutMain div aside img {
+        margin-bottom: 50px;
+    }
+
+    .aboutMain div section {
+        display: block;
+        width: 80%;
+        margin: 10px 10% 100px;
+    }
+
+    .aboutMain div section p {
+        line-height: 35px;
+    }
+
+    .newsMain div {
+        width: 70%;
+        margin-right: 15%;
+        margin-right: 15%;
+    }
+
+    .newsMain h1 {
+        font-size: 35px;
+    }
+
+    .newsMain p {
+        font-size: 14px;
+    }
+
+    .contactMain div div a h2 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+
+    .error h1 {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer p {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 30px;
+    }
+
+    footer a img {
+        margin-right: 15px;
+        width: 35px;
+    }
+
+    .nextEv div h1 {
+        font-size: 18px;
+    }
+
+    .songs div div iframe {
+        width: 250px;
+        height: 141px;
+    }
+
+    .aboutMain div aside img {
+        width: 200px;
+    }
+
+    .newsMain h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .newMain p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .newsMain {
+        width: 80%;
+        margin-right: 10%;
+        margin-right: 10%;
+    }
+
+    .newsMain div h1,
+    .newsMain div p {
+        margin-left: 14.5%;
+    }
+
+    .newsMain div form {
+        margin-left: 0;
+    }
+
+    .newsMain div form p {
+        font-size: 10px;
+    }
+
+    .inp input {
+        width: 200px;
+        height: 35px;
+    }
+
+    .contactMain div {
+        width: 200px;
+    }
+}

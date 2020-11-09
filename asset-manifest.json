@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/fabianlarries/static/css/main.c0c7561c.chunk.css",
+    "main.js": "/fabianlarries/static/js/main.4ed0f30d.chunk.js",
+    "main.js.map": "/fabianlarries/static/js/main.4ed0f30d.chunk.js.map",
+    "runtime-main.js": "/fabianlarries/static/js/runtime-main.2f3d27f5.js",
+    "runtime-main.js.map": "/fabianlarries/static/js/runtime-main.2f3d27f5.js.map",
+    "static/js/2.9c7b1c84.chunk.js": "/fabianlarries/static/js/2.9c7b1c84.chunk.js",
+    "static/js/2.9c7b1c84.chunk.js.map": "/fabianlarries/static/js/2.9c7b1c84.chunk.js.map",
+    "index.html": "/fabianlarries/index.html",
+    "static/css/main.c0c7561c.chunk.css.map": "/fabianlarries/static/css/main.c0c7561c.chunk.css.map",
+    "static/js/2.9c7b1c84.chunk.js.LICENSE.txt": "/fabianlarries/static/js/2.9c7b1c84.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/fabianlarries/static/media/next_events.54fbefa5.jpg",
+    "static/media/banner1.9b658fc0.jpg": "/fabianlarries/static/media/banner1.9b658fc0.jpg",
+    "static/media/banner2.0e5c996d.jpg": "/fabianlarries/static/media/banner2.0e5c996d.jpg",
+    "static/media/banner3.b0d32e22.jpg": "/fabianlarries/static/media/banner3.b0d32e22.jpg",
+    "static/media/facebook.6b9f5a3a.png": "/fabianlarries/static/media/facebook.6b9f5a3a.png",
+    "static/media/instagram.fe479148.png": "/fabianlarries/static/media/instagram.fe479148.png",
+    "static/media/logo.5a57318e.jpg": "/fabianlarries/static/media/logo.5a57318e.jpg",
+    "static/media/soundcloud.c2d1afee.png": "/fabianlarries/static/media/soundcloud.c2d1afee.png",
+    "static/media/spotify.4ee71a3e.png": "/fabianlarries/static/media/spotify.4ee71a3e.png",
+    "static/media/youtube.3814d7e0.png": "/fabianlarries/static/media/youtube.3814d7e0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f3d27f5.js",
+    "static/js/2.9c7b1c84.chunk.js",
+    "static/css/main.c0c7561c.chunk.css",
+    "static/js/main.4ed0f30d.chunk.js"
+  ]
+}
